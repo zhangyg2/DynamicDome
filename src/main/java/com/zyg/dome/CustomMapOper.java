@@ -82,7 +82,7 @@ public final class CustomMapOper {
             return;
         }
         for(int i=1;i<objects.length;i++){
-            if(objects[i] == null || !objects[i].getClass().getName().equals(GlobalAttr.getMapInterfaceName())){
+            if(objects[i] == null || !(objects[i] instanceof Map)){
                 continue;
             }
             Map map = (Map) objects[i];
