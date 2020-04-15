@@ -1,4 +1,4 @@
-# DynamicDome
+# DynamicDome (之前项目中遇到一个将配置文件反序列化为对象的问题，花了周末两天时间参考javapote自己动手写了一个自动生成java文件并编译生成javaBean对象的工具，除jdk外基本无其他第三方依赖）
 
 sourcebuild模块（创建一个包含私有变量和set，get方法的javaBean实体）：
 
